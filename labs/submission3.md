@@ -7,12 +7,14 @@
 `.github/workflows/learn-github-actions.yml`
 
 ### Key concepts learned:
+
 - **Jobs**: набор шагов, которые выполняются на одном runner'е
 - **Steps**: отдельные команды или действия внутри job'а
 - **Runners**: виртуальные машины, на которых выполняются workflow'ы (ubuntu-latest, windows-latest, macos-latest)
 - **Triggers**: события, которые запускают workflow (push, workflow_dispatch, pull_request и др.)
 
 ### What triggered the workflow:
+
 Workflow запустился автоматически после push в ветки main или feature/lab3.
 
 ### Link to successful run:
@@ -27,6 +29,7 @@ https://github.com/ImilB/Baltaniazov/actions/runs/23961020670
 Добавлен `workflow_dispatch:` под секцией `on:`. Это позволяет запускать workflow вручную из UI GitHub.
 
 ### How to trigger manually:
+
 1. Зайти в Actions → Выбрать workflow "Learn GitHub Actions"
 2. Нажать "Run workflow" → Выбрать ветку → Нажать "Run workflow"
 
