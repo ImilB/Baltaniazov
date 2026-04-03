@@ -16,7 +16,7 @@
 Workflow запустился автоматически после push в ветки main или feature/lab3.
 
 ### Link to successful run:
-[ВСТАВИТЬ ССЫЛКУ НА RUN В ACTIONS TAB]
+https://github.com/ImilB/Baltaniazov/actions/runs/23961020670
 
 ### Analysis of workflow execution process:
 При push в репозиторий GitHub автоматически запускает workflow. Runner (ubuntu-latest) скачивает код, выполняет каждый шаг по очереди. Если какой-то шаг падает (exit code не 0), workflow останавливается и помечается как failed.
